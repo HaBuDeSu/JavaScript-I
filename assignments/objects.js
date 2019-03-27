@@ -29,7 +29,8 @@ const Kennan = {
   "id": 2,
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
-  "gender": "M"
+  "gender": "M",
+  "speak": function () {console.log("My Name is Kennan.")}
 }
 
 const Keven = {
