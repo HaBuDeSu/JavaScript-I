@@ -30,7 +30,7 @@ const Kennan = {
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
   "gender": "M",
-  "speak": function () {console.log("My Name is Kennan.")}
+  "speak": function () {return "My Name is Kennan."}
 }
 
 const Keven = {
@@ -51,7 +51,8 @@ const Antonietta = {
   "id": 5,
   "name": "Antonietta",
   "email": "adaine5@samsung.com",
-  "gender": "F"
+  "gender": "F",
+  "multiplyNums": function (x,y) {return x*y}
 }
 
 // ==== Challenge 2: Reading Object Data ====
